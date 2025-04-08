@@ -1,1 +1,1 @@
-Panduan pengolahan data seismik HVSR menggunakan GEOPSY
+Panduan pengolahan data seismik pasif HVSR menggunakan GEOPSY
