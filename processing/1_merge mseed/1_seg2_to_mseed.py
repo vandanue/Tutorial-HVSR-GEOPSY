@@ -2,7 +2,7 @@ from obspy.core import read, Stream
 import os
 import glob
 
-folder_path = r'D:\Kulon Progo 2025\Seismik Pasif\data\Kulon Progo\Kelompok 5_Day 2\DATA\20250411_113212'
+folder_path = r'D:\Kulon Progo 2025\Seismik Pasif\data\Kulon Progo\Kelompok 1_Day4\D1'
 files = glob.glob(os.path.join(folder_path, '*.seg2'))
 
 print(files)
@@ -39,4 +39,4 @@ output_path = os.path.join(folder_path, output_filename)
 
 # Simpan stream gabungan dalam format MiniSEED
 combined_stream.write(output_path, format='MSEED')
-print(f"File MSEED gabungan telah disimpan di: {output_path}")
+print(f"\n\n----------------------------------------------------------\n File MSEED gabungan telah disimpan di: {output_path}")
